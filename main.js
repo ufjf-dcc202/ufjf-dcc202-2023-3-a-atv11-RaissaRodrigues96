@@ -1,9 +1,18 @@
-import { getLista } from "./lista";
+import { getLista, limpaLista } from "./lista";
 
 const olItens = document.querySelector ("#itens");
 const pEntrada = document.querySelector ("#entrada");
 const btnAdicionar = document.querySelector ("#adicionar");
 const btnLimpar = document.querySelector ("#limpar");
+
+btnLimpar.addEventListener ('click', limparItensDeLista);
+
+function limparItensDeLista() {
+    limpaLista();
+    atualizarLista();
+}
+
+atualizarLista();
 
 function atualizarLista() {
     olItens.innerHTML = "";
