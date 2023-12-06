@@ -4,6 +4,6 @@ export function getLista() {
     return structuredClone(lista);
 }
 
-export function limpaLista () {
+export function limpaLista() {
     lista.splice(0);
 }
