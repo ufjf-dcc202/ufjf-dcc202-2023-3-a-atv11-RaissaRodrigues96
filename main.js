@@ -1,11 +1,11 @@
-import { adicionaNaLista, getLista, limpaLista, removeDaLista } from "./lista.js";
+import { adicionaNaLista, getLista, limpaLista } from "./lista.js";
 
 const olItens = document.querySelector ("#itens");
 const pEntrada = document.querySelector ("#entrada");
 const btnAdicionar = document.querySelector ("#adicionar");
 const btnLimpar = document.querySelector ("#limpar");
 
-atualizarLista();
+atualizarListaOrdenada();
 
 btnLimpar.addEventListener ('click', limparLista);
 btnAdicionar.addEventListener ('click', adicionaNaLista);
