@@ -22,8 +22,8 @@ function adicionaItemNaEntrada() {
     atualizarListaOrdenada();
 }
 
-function atualizarLista() {
-    const lista=getLista();
+function atualizarListaOrdenada() {
+    const lista = getLista();
     olItens.innerHTML = "";
 
     for (let i = 0; i < lista.length; i++){
