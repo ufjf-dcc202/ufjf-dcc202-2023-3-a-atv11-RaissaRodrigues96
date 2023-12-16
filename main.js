@@ -7,8 +7,8 @@ const btnLimpar = document.querySelector ("#limpar");
 
 atualizarListaOrdenada();
 
-btnLimpar.addEventListener ('click', limparLista);
-btnAdicionar.addEventListener ('click', adicionaNaLista);
+btnLimpar.addEventListener ('click', limparListaOrdenada);
+btnAdicionar.addEventListener ('click', adicionaItemNaEntrada);
 
 function limparLista() {
     limpaLista();
