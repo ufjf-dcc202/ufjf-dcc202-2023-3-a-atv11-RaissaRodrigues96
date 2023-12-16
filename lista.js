@@ -1,5 +1,4 @@
 const lista = ["Um", "Dois", "Três"];
-export {getLista, removeDaLista, limpaLista, adicionaNaLista};
 
 export function getLista() {
     return lista;
@@ -16,3 +15,5 @@ export function removeDaLista(posicao) {
 export function adicionaNaLista(novoItem){
     lista.push(novoItem);
 }
+
+export {getLista, removeDaLista, limpaLista, adicionaNaLista};
