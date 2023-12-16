@@ -10,9 +10,9 @@ atualizarListaOrdenada();
 btnLimpar.addEventListener ('click', limparListaOrdenada);
 btnAdicionar.addEventListener ('click', adicionaItemNaEntrada);
 
-function limparLista() {
+function limparListaOrdenada() {
     limpaLista();
-    atualizarLista();
+    atualizarListaOrdenada();
 }
 
 function adicionaNaLista() {
