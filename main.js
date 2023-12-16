@@ -15,12 +15,11 @@ function limparListaOrdenada() {
     atualizarListaOrdenada();
 }
 
-function adicionaNaLista() {
+function adicionaItemNaEntrada() {
     const valor = pEntrada.textContent
     adicionaNaLista(valor);
-    atualizarItensDeLista();
     pEntrada.textContent = ""
-    atualizarLista();
+    atualizarListaOrdenada();
 }
 
 function atualizarLista() {
